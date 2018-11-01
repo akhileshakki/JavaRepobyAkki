@@ -41,6 +41,7 @@
 <head>
 <title>Contact Us</title>
 <meta charset="UTF-8">
+<meta name="keywords" content="ArchyAkhilesh, archyakhilesh, Archy Akhilesh, Archyakhilesh, Akhilesh, Akhilesh kumar,Archy">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles/layout.css" type="text/css">
 <link rel='stylesheet' href='style.css' type='text/css' media='all' />
@@ -56,7 +57,7 @@
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="Resume.html">About Me</a></li>
+        <li><a href="about.html">About Me</a></li>
         <li><a href="Blog.html">Blog</a></li>
         <li><a href="Contact.jsp">Contact</a></li>
         
@@ -66,7 +67,7 @@
 </div>
 <!-- content -->
 <div class="content">
-			<h1>Contact Form</h1>
+			<h1 style="margin-top:10px">Contact Form</h1>
 			<p>Send your comments through this form and we will get back to
 				you.</p>
 			<div id="message">
@@ -99,7 +100,7 @@
 					</div>
 					<div id="mail-status"></div>
 					<input type="submit" name="submit" value="Send Message"
-						id="send-message" style="clear: both;">
+						id="send-message" style="clear: both ;margin-bottom:15px;">
 					<%
 						if (null != message) {
 							out.println("<div class='" + status + "'>"
