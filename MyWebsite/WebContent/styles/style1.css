@@ -32,7 +32,13 @@ a{
 	background-color:#1abc9c;
 	height:600px;
 	clear:both;
+	display:table;
+	
 
+}
+.parent{
+	display:table-cell;
+	vertical-align:middle;
 }
 
 h1{	

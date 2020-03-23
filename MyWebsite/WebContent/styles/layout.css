@@ -40,8 +40,8 @@ q:after{content:' „'; font-size:26px; line-height:0;}
 div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
 
 .row1, .row1 a{color:#C0BAB6; background-color:#333333;}
-.row2{color:white; background-color:##1abc9c;}
-.row2 a{color:white; background-color:##1abc9c;}
+.row2{color:#979797; background-color:#FFFFFF;}
+.row2 a{color:#FF9900; background-color:#FFFFFF;}
 .row3{color:#989898; background-color:#333333;}
 .row3 a{color:#FF9900; background-color:#333333;}
 .row4, .row4 a{color:#919191; background-color:#232323;}
@@ -137,3 +137,126 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 #copyright{padding:20px 0;}
 #copyright p{margin:0; padding: 0;}
+
+/* -------------------------------------Blog page css ---------------------------------*/
+.container{
+	background:lightgreen;
+	padding:30px;
+}
+
+#header{
+	text-align:left;
+	padding:20px;
+	
+}
+.slider-image{
+	background-color:green;
+	padding:20px;
+}
+
+.sidebar{
+	background:green;
+	color:white;
+	display:inline-block;
+	position:relative;
+	width:25%;
+	height:90%;
+	padding:10px;
+}
+.content{
+	background:white;
+	padding:8px;
+	display:inline-block;
+	width:-webkit-fill-available;
+	height:600px;
+}
+.main-content{
+	display:inline-block;
+	width:70%;
+	float:right;
+	position:relative;
+}
+#main-heading{
+	color:white;
+	display:inline;
+	border-bottom-style:solid;
+	border-bottom-color:black;
+	font-size:45px;
+	padding-bottom:0px;
+	
+}
+h3{
+	border-bottom-style:dotted;
+	border-bottom-color:white;
+	margin:20px;
+	
+}
+h4{
+	margin-top:5px;
+	font-family:calibri
+	font-size:20px;
+}
+a{
+	color:white;
+}
+.head-link{
+	text-align:right;
+}
+
+#h2{
+	color:green;
+	diaplay:inline-block;
+	margin-bottom:3px;
+}
+ul{
+	list-style-type:disc;
+}
+li{
+	padding:5px;
+}
+li a:link{
+	text-decoration:none;
+}
+
+.para1{
+	color:black;
+	
+	display:inline-block;
+	
+}
+.para2{
+	float:left;
+	color:green;
+	display:block;
+	text-align:center;
+}
+.video{
+	float:left;
+	margin:5px;
+	display:inline-block;
+}
+.image{
+	display:inline-block;
+	float:left;
+	margin:5px;
+	clear:left;
+}
+.section1{
+	border-top:4px dotted black;
+	position:relative;
+	display: -webkit-inline-box;
+	width:-webkit-fill-available;
+	
+}
+.section2{
+	border-top:4px dotted black;
+	display:inline-table;
+	position:relative;
+	width:-webkit-fill-available;
+}
+.footer-content{
+	display:inline-block;
+}
+.footer-image{
+	display:inline;
+}
